@@ -1,0 +1,21 @@
+{
+  "config_version": 1,
+  "ads": {
+    "enabled": true,
+    "app_open": { "enabled": true, "provider": "admob", "cooldown_seconds": 1800 },
+    "interstitial": { "enabled": true, "provider": "admob", "after_actions": 5, "min_interval_seconds": 60, "max_per_session": 8 },
+    "banner": { "enabled": true, "provider": "admob" },
+    "native": { "enabled": false, "provider": "admob" },
+    "admob_ids": {
+      "app_open": "ca-app-pub-3940256099942544/9257395921",
+      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "banner": "ca-app-pub-3940256099942544/9214589741",
+      "native": "ca-app-pub-3940256099942544/2247696110"
+    },
+    "facebook_ids": {
+      "interstitial": "YOUR_META_INTERSTITIAL_PLACEMENT_ID",
+      "banner": "YOUR_META_BANNER_PLACEMENT_ID",
+      "native": "YOUR_META_NATIVE_PLACEMENT_ID"
+    }
+  }
+}
